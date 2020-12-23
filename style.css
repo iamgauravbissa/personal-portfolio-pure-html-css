@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#F59E0B;
+    --secondary-color:#1F2937;
+}
+ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    /* padding-inline-start: 0px; */
+    font-family: "Montserrat",sans-serif;
+    font-size: 400;
+    color: var(--secondary-color);
+}
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.list-inline{
+    list-style: none;
+    /* display: inline; */
+
+}
+.list-inline-item{
+    display: inline;
+    padding: .5rem;
+}
+.link{
+    text-decoration: none;
+    padding: .50rem;
+    margin: .50rem;
+    border-radius: 1rem
+}
+.link-primary{
+    text-decoration: none;
+   
+    background-color:var(--primary-color);
+    color: black;
+}
+.link-secondary{
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.navigation{
+    padding: .5rem;
+    border-radius: 0px 1.5rem 0px 1.5rem;
+    background-color: var(--primary-color);
+}
+.link-nav{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav-pill{
+    text-align: right;
+}
+.navigation .logo a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding: .5rem .5rem .5rem .5rem ;
+}
+
+
+.link-nav:hover,.link-nav-active{
+    background-color: var(--secondary-color);
+    font-size: 1.5rem;
+    padding: .8rem;
+    color: white;
+   
+    border-radius: 1.5rem;
+}
+section{
+    padding: 2rem;
+}
+.grey-section{
+    background-color: grey;
+}
+section h3{
+    text-align: center;
+}
+
+
+.header-image{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.header-image img{
+    max-width: 80%;
+    width: 350px;
+    margin: auto;
+    display: block;
+}
+.header-heading{
+    text-align: center;
+    padding-top: 1rem;
+    
+}
+.header-heading .special-text{
+    color: var(--primary-color);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 2rem 0rem 2rem 0rem;
+}
+.footer-heading{
+    text-align: center;
+}
+.footer a{
+    color: inherit;
+    font-weight: bold;
+}
+
+
+.list-footer{
+    padding: .5rem 0rem 0rem 35.5rem;
+    margin: .5rem;
+}
+
+
