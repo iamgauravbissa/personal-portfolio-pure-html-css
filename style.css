@@ -35,19 +35,24 @@ body{
 }
 .link{
     text-decoration: none;
-    padding: .50rem;
-    margin: .50rem;
-    border-radius: 1rem
+    padding: .80rem;
+    margin: .80rem;
+    border-radius: 1rem;
+    transition: all .2s ease-in-out;
+}
+.link:hover{
+    transform: scale(1.5);
 }
 .link-primary{
     text-decoration: none;
-   
+    font-weight: bold;
     background-color:var(--primary-color);
     color: black;
 }
 .link-secondary{
     background-color: var(--secondary-color);
-    color: black;
+    color: white;
+    font-weight: bold;
 }
 
 .navigation{
@@ -84,6 +89,8 @@ section{
     padding: 2rem;
 }
 .grey-section{
+    padding: 3rem;
+    border-radius: 2.5rem;
     background-color: grey;
 }
 section h3{
@@ -125,8 +132,13 @@ section h3{
 
 
 .list-footer{
-    padding: .5rem 0rem 0rem 35.5rem;
-    margin: .5rem;
+    /* padding: .5rem 0rem 0rem 20rem; */
+    text-align: center;
 }
 
-
+section p{
+    margin-bottom: 2rem;
+}
+footer ul{
+    padding-inline-start: 0px; 
+}
